@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300;400;500&display=swap');
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    background-image: url("library.png");
+    background-size: cover;
+    width: 100%;
+    color: #009A9C;
+}
+.firstone{
+    margin-top: 30px;
+}
+.input{
+border-radius: 3px;
+background-color: #009A9C;
+color: white;
+border: #009A9C;
+padding: 5px 111px 5px 18px;
+margin: 10px 7px 0px 80px;
+}
+select{
+    border-radius: 3px;
+    padding: 1px 188px 0px 0px;
+    margin: 13px 28px 4px 80px;
+}
+::placeholder{
+    color: white;
+    opacity: 90%;
+}
+#select{
+    color: #009A9C;
+}
+#type{
+    margin-left: 110px;
+}
+#button{
+    background-color: #009A9C;
+    color: white;
+    border: none;
+    padding: 5px 20px 5px 18px;
+    border-radius: 3px;
+    margin: 17px 0px 0px 252px;
+}
+p{
+    margin-left: 210px
+}
+#table{
+    margin-top: 50px;
+    background-color: #009A9C;
+    color: white;
+    font-size: 13px;
+}
+#table td{
+    padding-left: 5px;
+}
+#table th{
+    background-color: #009A9C;
+    color: white;
+    border: 2px solid white;
+    padding-left: 5px;
+    padding-right: 40px;
+    border-collapse: collapse;
+}
+#varo{
+    color: red;
+    font-size: 30px;
+}
